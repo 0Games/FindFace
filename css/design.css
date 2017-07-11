@@ -1,0 +1,40 @@
+/* Normal Styles - For mobiles vertical */
+header{
+  background-color: red;
+}
+
+header figure,
+header figure img{
+  margin: 0px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+body{
+  background: rgb(247, 231, 19);
+  margin: 0;
+}
+
+footer{
+
+}
+
+/* Mobile horizontally or Tablets vertical */
+@media (min-width: 768px) {
+
+}
+
+/* Tablets horizontally and Normal desks */
+@media (min-width: 1024px) {
+
+}
+
+/* large desks */
+@media (min-width: 1200px) {
+
+}
