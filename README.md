@@ -4,4 +4,4 @@ Welcome to 0Games page!<br><br>
 Check the games!<br>
 https://0games.github.io/Games/<br><br>
 
-This is a website created by <a href="https://0skywalker.github.io/Me/">Alejandro Chávez Gómez</a> see <a href="#">license</a> and <a href="#">credits</a>.
+This is a website created by <a href="https://0skywalker.github.io/Me/">Alejandro Chávez Gómez</a>. See <a href="#">license</a> and <a href="#">credits</a>.
