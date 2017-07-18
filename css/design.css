@@ -18,12 +18,16 @@ body{
   //-webkit-text-size-adjust:none;
 }
 
+#main-content {
+
+}
+
 #fab_share {
-  margin-top: -30px;
+  margin-top: -28px;
   margin-left: 80%;
-  position: relative;
-  width: 50px;
-  height: 50px;
+  position: absolute;
+  width: 45px;
+  height: 45px;
   background: white;
   text-align: center;
   border-radius: 50%;
@@ -32,7 +36,7 @@ body{
 
 
 #fab_share img{
-  margin-top: 14px;
+  margin-top: 11px;
   //border-style: solid;
   //border-width: thin;
 }
