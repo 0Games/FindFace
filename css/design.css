@@ -7,12 +7,37 @@ header img{
   margin: 0px;
   width: 100%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
+
 }
 
 
 body{
-  background: #fff;
+  background: gray;
   margin: 0;
+  -webkit-text-size-adjust:none;
+}
+
+article {
+  background: red;
+}
+
+#fab_share {
+  margin-top: -30px;
+  margin-left: 80%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: white;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+
+#fab_share img{
+  margin-top: 14px;
+  //border-style: solid;
 }
 
 footer{
@@ -21,15 +46,22 @@ footer{
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
+  body {
+    background: red;
+  }
 
 }
 
 /* Tablets horizontally and Normal desks */
 @media (min-width: 1024px) {
-
+  body {
+    background: green;
+  }
 }
 
 /* large desks */
 @media (min-width: 1200px) {
-
+  body {
+    background: blue;
+  }
 }
