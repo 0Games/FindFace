@@ -37,6 +37,7 @@ body{
 
 #fab_share img{
   margin-top: 11px;
+  margin-left: -1px;
   //border-style: solid;
   //border-width: thin;
 }
