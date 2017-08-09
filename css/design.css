@@ -30,8 +30,8 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 #fab-zone {
   //background: aqua;
@@ -55,6 +55,8 @@ a:visited {
   margin-left: -2px;
 }
 
+
+
 #findFace img {
   width: 60px;
   height: 60px;
@@ -69,18 +71,27 @@ a:visited {
   padding-bottom: 80px;
 }
 
-
-article {
+.container {
   background: white;
   text-align: center;
   margin: 30px auto;
 }
-
-
-
+.grid {
+  //background: red;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 190px;
+  justify-content: space-around;
+  justify-content: space-between;
+  -webkit-justify-content: space-around;
+}
 .card {
   //background: red;
-  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   height: 200px;
   width: 200px;
 }
