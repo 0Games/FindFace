@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 });
 
-/* Material Design Ripple - x */
+/* Material Design Ripple - Cards */
 $(document).ready(function() {
   $('body').on('click touchstart', '.card', function(e) {
        var ripple = $(this).find(".ripple");
