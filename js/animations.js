@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 /* Material Design Ripple - Cards */
 $(document).ready(function() {
-  $('body').on('click touchstart', 'a', function(e) {
+  $('body').on('click touchstart', '.card', function(e) {
        var ripple = $(this).find(".ripple");
        ripple.removeClass("animate");
        var x = parseInt(e.pageX - $(this).offset().left) - (ripple.width() / 2);
