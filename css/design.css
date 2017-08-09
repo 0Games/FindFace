@@ -89,6 +89,7 @@ a {
   margin: 30px auto;
 }
 .grid {
+  margin-top: 60px;
   //background: lightblue;
   display: flex;
   display: -webkit-flex;
