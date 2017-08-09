@@ -12,8 +12,9 @@ body {
   font-family: 'Roboto Light', sans-serif;
   //-webkit-text-size-adjust:none;
 }
-h3 {
+h2 {
   line-height: 1px;
+  font-size: 25px;
   font-weight: 100;
   opacity: .54;
 }
