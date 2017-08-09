@@ -1,7 +1,5 @@
 /* Normal Styles - For mobiles vertical */
-header{
 
-}
 header img {
   margin: 0px;
   width: 100%;
@@ -11,7 +9,21 @@ body {
   //background: gray;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto Light', sans-serif;
   //-webkit-text-size-adjust:none;
+}
+h2 {
+  line-height: 1px;
+  font-weight: 100;
+  color: #95989A;
+}
+h6 {
+  font-weight: 100;
+  color: #95989A;
+}
+p {
+  font-weight: 100;
+  color: #95989A;
 }
 a:link {
   color: #000;
@@ -42,26 +54,34 @@ a:visited {
   margin-top: 11px;
   margin-left: -2px;
 }
-#card {
-  margin: auto;
-  //background: red;
-  height: 200px;
-  width: 200px;
-}
-#card img {
+
+#findFace img {
   width: 60px;
   height: 60px;
-  //background: red;
+  //background: lightgreen;
+}
 
-}
-#card h2 {
-  line-height: 1px;
-}
+
 article {
   //background: pink;
   text-align: center;
   margin: 30px auto;
 }
+
+
+
+.card {
+  //background: red;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+
+
+
+
+
 
 
 footer{
