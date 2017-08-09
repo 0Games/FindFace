@@ -6,7 +6,7 @@ header img {
   box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
 }
 body {
-  background: red;;
+  background: white;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -61,8 +61,14 @@ a:visited {
   height: 60px;
   //background: lightgreen;
 }
-
-
+#div_email {
+  margin: -10px auto;
+  height: 25px;
+  padding-top: 1px;
+}
+#about {
+  padding-bottom: 80px;
+}
 article {
   background: white;
   text-align: center;
@@ -77,7 +83,9 @@ article {
   height: 200px;
   width: 200px;
 }
-
+.hide {
+  display: none;
+}
 
 
 
