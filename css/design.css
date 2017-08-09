@@ -2,23 +2,25 @@
 header{
 
 }
-
-header img{
+header img {
   margin: 0px;
   width: 100%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
-
 }
-
-
-body{
+body {
   //background: gray;
   margin: 0;
   padding: 0;
   //-webkit-text-size-adjust:none;
 }
-
-
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
 #fab-zone {
   //background: aqua;
   position: relative;
@@ -27,7 +29,6 @@ body{
   margin-left: 30px;
   margin-bottom: 30px;
 }
-
 #fab_share {
   margin-left: 86%;
   width: 45px;
@@ -37,30 +38,34 @@ body{
   border-radius: 50%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-
-#fab_share img{
+#fab_share img {
   margin-top: 11px;
   margin-left: -2px;
-  //border-style: solid;
-  //border-width: thin;
 }
-
-article {
-  text-align: center;
-  background: pink;
-  margin: 60px auto;
-}
-
 #card {
   margin: auto;
-  background: red;
-  height: 250px;
-  width: 250px;
+  //background: red;
+  height: 200px;
+  width: 200px;
+}
+#card img {
+  width: 60px;
+  height: 60px;
+  //background: red;
+
+}
+#card h2 {
+  line-height: 1px;
+}
+article {
+  //background: pink;
+  text-align: center;
+  margin: 30px auto;
 }
 
 
 footer{
-  background: lime;
+  //background: lime;
   text-align: center;
   //padding: 20px;
   margin-top: 10px;
@@ -72,7 +77,6 @@ footer{
   body {
     background: red;
   }
-
 }
 
 /* Tablets horizontally and Normal desks */
