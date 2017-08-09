@@ -18,7 +18,7 @@ h2 {
   font-weight: 100;
   opacity: .64;
 }
-h6 {
+h5 {
   font-weight: 100;
   opacity: .64;
 }
@@ -26,11 +26,11 @@ p {
   font-weight: 100;
 }
 a:link {
-  color: #2980b9;
+  color: #000;
   text-decoration: none;
 }
 a:visited {
-    color: #2980b9;
+    color: #000;
     text-decoration: none;
 }
 #fab-zone {
@@ -87,7 +87,9 @@ article {
 .hide {
   display: none;
 }
-
+.link-blue {
+  color: #2980b9 !important;
+}
 
 
 
