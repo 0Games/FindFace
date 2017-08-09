@@ -13,10 +13,11 @@ body {
   -webkit-text-size-adjust:none;
 }
 h2 {
-  line-height: 1px;
   font-size: 25px;
   font-weight: 100;
   opacity: .64;
+  line-height: 1px;
+  //background: gray;
 }
 h5 {
   font-weight: 100;
@@ -58,9 +59,10 @@ a:visited {
 
 
 #findFace img {
+  margin-top: 10px;
   width: 60px;
   height: 60px;
-  //background: lightgreen;
+  //background: orange;
 }
 #div_email {
   margin: -10px auto;
@@ -71,13 +73,23 @@ a:visited {
   padding-bottom: 80px;
 }
 
+a {
+  //background: green;
+}
+
+.tag {
+  margin-left: 85px;
+  //background: black;
+  position: absolute;
+}
+
 .container {
-  background: white;
+  //background: green;
   text-align: center;
   margin: 30px auto;
 }
 .grid {
-  //background: red;
+  //background: lightblue;
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -88,10 +100,11 @@ a:visited {
   -webkit-justify-content: space-around;
 }
 .card {
-  //background: red;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  //background: pink;
+  margin: 20px;
+  //margin-left: 20px;
+  //margin-right: 20px;
+  //margin-bottom: 20px;
   height: 200px;
   width: 200px;
 }
