@@ -9,12 +9,10 @@ h1 {
 }
 a:link {
     color: #0098ff;
-    opacity: .84;
     text-decoration: none;
 }
 a:visited {
     color: #0098ff;
-    opacity: .84;
     text-decoration: none;
 }
 #error404 {
