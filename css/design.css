@@ -1,16 +1,13 @@
 /* Normal Styles - For mobiles vertical */
 header{
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 header img {
-  //margin: 0px;
-  //padding-top: 60px;
-  width: 100%;
-  position: relative;
-  background-size: cover;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
+
 }
 footer{
   text-align: center;
@@ -44,25 +41,13 @@ a:visited {
   color: #000;
   text-decoration: none;
 }
-#fab-zone {
+#cover{
+  width: 100%;
   position: relative;
-  margin-top: -28px;
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-#fab_share {
-  margin-left: 86%;
-  width: 45px;
-  height: 45px;
-  background: white;
-  text-align: center;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-#fab_share img {
-  margin-top: 11px;
-  margin-left: -2px;
+  background-size: cover;
+  display: inline-block;
+  //margin-top: 50px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
 }
 #findFace img {
   margin-top: 10px;
@@ -118,6 +103,10 @@ a:visited {
 .link-blue {
   color: #2196F3 !important;
 }
+.icon-text{
+  height: 20px;
+  width: 20px;
+}
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 595px) {
@@ -125,7 +114,7 @@ a:visited {
     background: blue;
   }
 
-  header img{
+  #cover{
     max-width: 80%;
     max-height: 80%;
     margin-top: 60px;
@@ -139,10 +128,10 @@ a:visited {
   body {
     background: green;
   }
-  header img{
+  #cover{
     max-width: 70%;
     max-height: 70%;
-    padding-top: 60px;
+    margin-top: 60px;
   }
 }
 
