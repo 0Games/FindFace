@@ -2,12 +2,11 @@
 header{
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 
-}
-
-header img {
-
+  font-weight: 100;
+  line-height: 1px;
+  opacity: .64;
 }
 footer{
   text-align: center;
