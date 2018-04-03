@@ -42,7 +42,8 @@ a:visited {
   background-size: cover;
   display: inline-block;
   //margin-top: 50px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
+  //box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.23), 0 -4px 8px rgba(0,0,0,0.19);
 }
 #findFace img {
   margin-top: 10px;
