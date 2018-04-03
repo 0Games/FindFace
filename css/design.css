@@ -5,12 +5,12 @@ header{
 
 header img {
   //margin: 0px;
-  //box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
+  //padding-top: 60px;
   width: 100%;
-  padding-top: 60px;
   position: relative;
   background-size: cover;
   display: inline-block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
 }
 footer{
   text-align: center;
