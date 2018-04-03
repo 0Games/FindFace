@@ -39,9 +39,6 @@ a:visited {
   position: relative;
   background-size: cover;
   display: inline-block;
-
-  -moz-box-shadow: 0 0 5px 5px #888;
-  -webkit-box-shadow: 0 0 5px 5px#888;
   box-shadow: 0 0 5px 5px rgba(0,0,0,0.27);
 }
 #findFace img {
@@ -110,10 +107,9 @@ a:visited {
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 595px) {
-  body {
-    //background: blue;
+  #cover{
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0);
   }
-
   .cover-container{
     text-align: center;
     width: 90%;
@@ -123,9 +119,6 @@ a:visited {
 
 /* Tablets horizontally and Normal desks */
 @media (min-width: 1024px) {
-  body {
-    //background: green;
-  }
   .cover-container{
     width: 80%
   }
@@ -133,9 +126,6 @@ a:visited {
 
 /* large desks */
 @media (min-width: 1200px) {
-  body {
-    background: white;
-  }
   .cover-container{
     width: 70%
   }
