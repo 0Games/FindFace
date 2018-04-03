@@ -122,6 +122,9 @@ a:visited {
   .cover-container{
     width: 80%
   }
+  h2{
+    opacity: 1;
+  }
 }
 
 /* large desks */
