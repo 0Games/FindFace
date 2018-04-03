@@ -1,34 +1,71 @@
 /* Normal Styles - For mobiles vertical */
 header{
   width: 100%;
-  //background: red;
   text-align: center;
+  padding-top: 15px;
 }
 header img{
   height: 45px;
   width: 45px;
 }
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-text-size-adjust:none;
+}
 footer{
   text-align: center;
+}
+h5{
+  font-weight: 400;
+}
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+#main-content{
+  padding-top: 10px;
+}
+.name-game{
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+}
+.description-game{
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+.extract{
+  opacity: .74;
+  line-height: 5px;
+}
+.link-blue {
+  color: #2196F3 !important;
 }
 
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
   body {
-    background: red;
+    //background: red;
   }
 }
 
 /* Tablets horizontally and Normal desks */
 @media (min-width: 1024px) {
   body {
-    background: green;
+    //background: green;
   }
 }
 
 /* large desks */
 @media (min-width: 1200px) {
   body {
-    background: blue;
+    //background: blue;
   }
 }
