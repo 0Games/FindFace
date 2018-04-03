@@ -44,7 +44,7 @@ a:visited {
   //margin-top: 50px;
   //box-shadow: 0 3px 6px rgba(0,0,0,0.19), 0 5px 6px rgba(0,0,0,0.23);
   //box-shadow: 0 16px 7px rgba(0,0,0,0.23), 0 -14px 7px rgba(0,0,0,0.19);
-  box-shadow: 0 8px 6px rgba(0,0,0,0.33), 0 -6px 6px rgba(0,0,0,0.29);
+  box-shadow: 0 8px 8px rgba(0,0,0,0.33), 0 -6px 8px rgba(0,0,0,0.29);
 }
 #findFace img {
   margin-top: 10px;
