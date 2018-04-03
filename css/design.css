@@ -44,7 +44,7 @@ a:visited {
 
   -moz-box-shadow: 0 0 5px 5px #888;
   -webkit-box-shadow: 0 0 5px 5px#888;
-  box-shadow: 0 0 5px 5px rgba(0,0,0,0.23);
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.27);
 
   //margin-top: 50px;
   //box-shadow: 0 -5px 6px rgba(0,0,0,0.27), 0 6px 6px rgba(0,0,0,0.27);
