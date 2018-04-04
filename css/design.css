@@ -67,9 +67,9 @@ a:visited {
 .slideshow{
   position: relative;
     overflow: hidden;
-    overflow-x: hidden;
+    overflow-x: scroll;
     background: red;
-    height: 467px;
+    height: 167px;
     display: flex;
 
 }
@@ -77,7 +77,7 @@ a:visited {
 /* CLASS */
 
 .screeshot{
-  height: 450px;
+  height: 150px;
   padding-left: 20px;
 }
 
