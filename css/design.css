@@ -73,7 +73,17 @@ a:visited {
     display: flex;
 }
 
+span{
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  margin: 37px;
+}
 
+.information{
+  font-weight: 900;
+}
 .download{
   text-align: center;
 }
