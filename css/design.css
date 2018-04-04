@@ -73,6 +73,18 @@ a:visited {
     display: flex;
 }
 
+
+.download{
+  text-align: center;
+}
+.download h2{
+  display: inline;
+}
+.icon-download{
+  height: 30px;
+  width: 30px;
+}
+
 /* CLASS */
 
 .screeshot{
