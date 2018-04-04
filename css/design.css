@@ -22,7 +22,7 @@ h2 {
   font-weight: 100;
   opacity: .64;
   line-height: 1px;
-    text-align: center;
+  text-align: center;
 }
 h5 {
   font-weight: 100;
@@ -81,8 +81,9 @@ a:visited {
 }
 
 
-.padding-top-15{
+.padding-top-bottom-15{
   padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .noselect {
