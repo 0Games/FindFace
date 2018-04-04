@@ -48,7 +48,7 @@ a:visited {
   position: relative;
   background-size: cover;
   display: inline-block;
-  //box-shadow: 0 0 5px 5px rgba(0,0,0,0.27);
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.27);
 }
 #findFace img {
   margin-top: 10px;
@@ -179,7 +179,7 @@ span{
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 595px) {
   #cover{
-    //box-shadow: 0 0 5px 5px rgba(0,0,0,0);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0);
   }
   .cover-container{
     text-align: center;
