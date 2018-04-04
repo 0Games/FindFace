@@ -50,6 +50,7 @@ a:visited {
   color: #2196F3 !important;
 }
 
+
 /* Mobile horizontally or Tablets vertical */
 @media (min-width: 768px) {
   body {

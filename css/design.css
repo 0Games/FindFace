@@ -64,11 +64,27 @@ a:visited {
 #main-content{
   padding-top: 10px;
 }
+.slideshow{
+  position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    background: red;
+    height: 467px;
+    display: flex;
 
+}
 
 /* CLASS */
 
+.screeshot{
+  height: 450px;
+  padding-left: 20px;
+}
 
+
+.padding-top-15{
+  padding-top: 15px;
+}
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
