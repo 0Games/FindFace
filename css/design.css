@@ -16,7 +16,9 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   -webkit-text-size-adjust:none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+img{-khtml-user-select:none;-o-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none}
 h2 {
   font-size: 25px;
   font-weight: 100;
@@ -64,13 +66,26 @@ a:visited {
 #main-content{
   padding-top: 10px;
 }
+#screens{
+  text-align: center;
+  margin: auto;
+
+}
+
 .slideshow{
   position: relative;
+  text-align:center;
+
     overflow: hidden;
     overflow-x: scroll;
     //background: red;
     height: 367px;
     display: flex;
+}
+
+.slideshow img{
+  text-align: center;
+  margin: 0px auto;
 }
 
 span{
@@ -102,7 +117,7 @@ span{
 
 .screeshot{
   height: 350px;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
