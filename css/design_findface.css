@@ -16,9 +16,10 @@ body{
 }
 footer{
   text-align: center;
+  margin-top: 10px;
 }
 h5{
-  font-weight: 400;
+  font-weight: 100;
 }
 a:link {
   color: #000;
@@ -34,7 +35,8 @@ a:visited {
 .name-game{
   font-size: 28px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 100;
+  opacity: .74;
 }
 .description-game{
   font-size: 15px;
@@ -42,7 +44,6 @@ a:visited {
   font-weight: 300;
 }
 .extract{
-  opacity: .74;
   line-height: 5px;
 }
 .link-blue {
