@@ -84,7 +84,9 @@ a:visited {
   height: 30px;
   width: 30px;
 }
-
+.icon-google{
+  height: 60px;
+}
 /* CLASS */
 
 .screeshot{
